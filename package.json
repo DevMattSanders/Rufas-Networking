@@ -1,0 +1,21 @@
+{
+  "name": "com.devmattsanders.rufas-networking",
+  "version": "1.0.0",
+  "displayName": "RUFAS Networking",
+  "description": "Networking addition to RUFAS Core",
+  "unity": "2019.1",
+  "keywords": [
+    "rufas",
+    "rufas-core"
+  ],
+  "samples": [
+    {
+      "displayName": "Examples",
+      "description": "Example RUFAS Networking prefabs",
+      "path": "Samples~/Examples"
+    }
+  ],
+  "author": {
+    "name": "Matthew Sanders & Joe Duffy"
+  }
+}
