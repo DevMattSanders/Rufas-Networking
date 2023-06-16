@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 using Unity.Netcode;
+using Rufas.VR;
 
 namespace Rufas.Networking
 {
@@ -26,10 +27,10 @@ namespace Rufas.Networking
             {
                 // -- No reference to VRRigTransforms in RUFAS. Was this something from SlotCar?
 
-              //  VRRigTransforms vRRigTransforms = FindAnyObjectByType<VRRigTransforms>();
-              //  if (vRRigTransforms == null) { Debug.LogError("Cannot find VR Rig Transforms class"); }
+                VRRigTransforms vRRigTransforms = FindAnyObjectByType<VRRigTransforms>();
+                if (vRRigTransforms == null) { Debug.LogError("Cannot find VR Rig Transforms class"); }
 
-              //  AssignRigToAvatar(vRRigTransforms.head, vRRigTransforms.rightHand, vRRigTransforms.leftHand);
+                AssignRigToAvatar(vRRigTransforms.head, vRRigTransforms.rightHand, vRRigTransforms.leftHand);
 
                 MeshRenderer[] renders = GetComponentsInChildren<MeshRenderer>();
                 foreach (MeshRenderer renderer in renders)

@@ -1,4 +1,5 @@
-using Sirenix.OdinInspector;
+/*
+ * using Sirenix.OdinInspector;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Netcode;
@@ -7,6 +8,7 @@ using UnityEngine;
 
 public class NetworkPhysics : NetworkRigidbody
 {
+    
     Rigidbody rb;
 
     public void Start()
@@ -118,4 +120,7 @@ public class NetworkPhysics : NetworkRigidbody
         // NetworkTransform update and physics will be applied (i.e. gravity, etc)
         m_Rigidbody.isKinematic = false;
     }
+    
 }
+
+*/
