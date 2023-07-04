@@ -87,7 +87,6 @@ public class NetworkPrefabsListCollection : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log("Here");
                     manager.AddNetworkPrefab(prefabToAdd);
                 }
             }
