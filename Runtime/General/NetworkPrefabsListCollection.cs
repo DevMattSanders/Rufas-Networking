@@ -23,7 +23,7 @@ public class NetworkPrefabsListCollection : MonoBehaviour
     private void GetPrefabLists()
     {
 #if UNITY_EDITOR
-        networkPrefabLists = GeneralMethods.FindAllScriptableObjectsOfType<NetworkPrefabsList>();
+        networkPrefabLists = RufasStatic.GetAllScriptables_ToList<NetworkPrefabsList>();//.FindAllScriptableObjectsOfType<NetworkPrefabsList>();
 #endif
 
     }
