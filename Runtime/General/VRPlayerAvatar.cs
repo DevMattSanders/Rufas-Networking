@@ -7,8 +7,10 @@ using Rufas.VR;
 
 namespace Rufas.Networking
 {
-    public class VRPlayerAvatar : NetworkBehaviour
+    public class VRPlayerAvatar : MonoBehaviour
     {
+
+        /*
         [Header("Avatar Transforms")]
         public Transform avatarHeadTransform;
         public Transform avatarLeftHandTransform;
@@ -63,5 +65,6 @@ namespace Rufas.Networking
             vrLeftHandTransform = vrLeftHand;
             vrRightHandTransform = vrRightHand;
         }
+        */
     }
 }
